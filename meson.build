@@ -12,11 +12,11 @@ install_data('COPYING', install_dir : licenses_dir, install_tag : 'runtime')
 install_data('COPYING_CCBYSA3', install_dir : licenses_dir, install_tag : 'runtime')
 install_data('COPYING_LGPL', install_dir : licenses_dir, install_tag : 'runtime')
 
-adwaita_dir = get_option('datadir') / 'icons' / 'Adwaita'
+adwaita_dir = get_option('datadir') / 'icons' / 'AdwaitaLegacy'
 install_data('index.theme', install_dir : adwaita_dir, install_tag : 'runtime')
 
 install_subdir(
-  'Adwaita',
+  'AdwaitaLegacy',
   install_dir: adwaita_dir,
   strip_directory : true,
   install_tag : 'runtime',
