@@ -3,6 +3,7 @@ Name=AdwaitaLegacy
 Comment=Legacy Fullcolor Icons
 Example=folder
 Inherits=hicolor
+Hidden=true
 
 # KDE Specific Stuff
 DisplayDepth=32
